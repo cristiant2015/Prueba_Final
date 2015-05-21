@@ -1,4 +1,6 @@
-/*
+/*/**Aplicacion en Java que simula una calculadora que realiza operaciones basicas como: Suma-Resta-multiplicacion-division
+con solo 2 digitos ( Numeros Distintos o iguales)*/
+
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.

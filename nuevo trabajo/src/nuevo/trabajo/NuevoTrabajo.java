@@ -42,7 +42,7 @@ hasta que se ingrese un correcta ( Valida ) */
   
             System.out.println("ingrese una nueva opcion: ");
             opcion = leer.nextLine();
-/**Aqui ocupamos la estructura CASE para aplicar cada una de las siguientes opciones segun cual se a seleccionada*/
+/**Aqui ocupamos la estructura CASE para aplicar cada una de las siguientes opciones segun cual sea seleccionada*/
             switch (opcion) {
                 case "a":
                     System.out.println("Ingrese digito 1:");
@@ -107,5 +107,6 @@ hasta que se ingrese un correcta ( Valida ) */
     }
 
 }/**Integrantes: Victor Andrade
-                Cristian Tapia
-                Henry Matus*/
+                 Cristian Tapia
+                 Henry Matus
+                 */

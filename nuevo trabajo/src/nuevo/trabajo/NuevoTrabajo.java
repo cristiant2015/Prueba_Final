@@ -37,7 +37,7 @@ con presentacion y menu de opciones*/
         System.out.println("d)division");
         System.out.println("e)salir");
 /**Ahora ocuparemos la estructura de repeticion while para que el programa siga pidiendo opciones 
-asta que se ingrese un correcta ( Valida ) */
+hasta que se ingrese un correcta ( Valida ) */
         while (a == 0) {
   
             System.out.println("ingrese una nueva opcion: ");

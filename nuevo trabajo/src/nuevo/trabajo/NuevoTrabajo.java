@@ -106,4 +106,6 @@ asta que se ingrese un correcta ( Valida ) */
         }
     }
 
-}
+}/**Integrantes: Victor Andrade
+                Cristian Tapia
+                Henry Matus*/

@@ -8,6 +8,7 @@ package nuevo.trabajo;
 /**
  *
  * @author victor_h2
+ *//**Importamos Clase Scanner
  */
 import java.util.Scanner;
 
@@ -17,13 +18,15 @@ public class NuevoTrabajo {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-
+/**Despues que importamos la clase scanner la ocupamos como una entrada estandar*/
         Scanner leer = new Scanner(System.in);
+ /**Identificamos las variables que ocuparemos*/       
         String opcion;
         int digito1;
         int digito2;
         int a = 0;
-
+/**Ahora le pedimos al programa que muestre en pantalla las siguientes salidas estandar conformadas
+con presentacion y menu de opciones*/
         System.out.println("buenas tardes soy una calculadora: ");
         System.out.println("ingrese una opcion: ");
         System.out.println("a)suma");
@@ -31,12 +34,13 @@ public class NuevoTrabajo {
         System.out.println("c)multiplicacion");
         System.out.println("d)division");
         System.out.println("e)salir");
-
+/**Ahora ocuparemos la estructura de repeticion while para que el programa siga pidiendo opciones 
+asta que se ingrese un correcta ( Valida ) */
         while (a == 0) {
-
+  
             System.out.println("ingrese una nueva opcion: ");
             opcion = leer.nextLine();
-
+/**Aqui ocupamos la estructura CASE para aplicar cada una de las siguientes opciones segun cual se a seleccionada*/
             switch (opcion) {
                 case "a":
                     System.out.println("Ingrese digito 1:");
